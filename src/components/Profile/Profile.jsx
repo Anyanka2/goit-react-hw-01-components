@@ -12,8 +12,7 @@ import {
   Quantity,
 } from './Profile.styled';
 
-const Profile = ({ username, tag, location, avatar, stats }) => {
-  // console.log(stats)
+export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <ProfileCont>
       <DescriptionCont>
@@ -25,15 +24,15 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
 
       <StatsList>
         <ListItem>
-          <Label >Followers</Label>
+          <Label>Followers</Label>
           <Quantity>{stats.followers}</Quantity>
         </ListItem>
         <ListItem>
-          <Label >Views</Label>
+          <Label>Views</Label>
           <Quantity>{stats.views}</Quantity>
         </ListItem>
         <ListItem>
-          <Label >Likes</Label>
+          <Label>Likes</Label>
           <Quantity>{stats.likes}</Quantity>
         </ListItem>
       </StatsList>
@@ -53,4 +52,3 @@ Profile.propTypes = {
   }),
 };
 
-export default Profile;

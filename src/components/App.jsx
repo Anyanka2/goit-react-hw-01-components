@@ -1,17 +1,16 @@
 import user from '../data/user.json';
-import Profile from './Profile/Profile';
+import { Profile } from './Profile/Profile';
 
 import data from '../data/data.json';
-import Statistics from './Statistic/Statistic';
+import { Statistics } from './Statistic/Statistic';
 
 import friends from '../data/friends.json';
-import FriendList from './FriendList/FriendList';
+import { FriendList } from './FriendList/FriendList';
 
 import transactions from '../data/transactions.json';
-import TransactionHistory './TransactionHistory/TransactionHistory';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
-
-export default function App() {
+export function App() {
   return (
     <>
       <Profile
