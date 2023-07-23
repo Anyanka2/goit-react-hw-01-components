@@ -7,8 +7,8 @@ import { Statistics } from './Components/Statistic/Statistic';
 import friends from './data/friends.json';
 import { FriendList } from './Components/FriendList/FriendList';
 
-import transactions from './data/transactions.json';
-import { TransactionHistory } from './Components/TransactionHistory/TransactionHistory';
+// import transactions from './data/transactions.json';
+// import { TransactionHistory } from './Components/TransactionHistory/TransactionHistory';
 
 export default function App() {
   return (
