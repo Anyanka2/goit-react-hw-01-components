@@ -6,7 +6,6 @@ export const Section = styled.section`
   margin-right: auto;
   width: 300px;
   padding: 40px 40px;
-  background-color: #cdffd7;
   border-radius: 15px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 `;
@@ -20,7 +19,6 @@ export const Title = styled.h2`
   background-color: white;
   font-size: 20px;
   font-weight: 700;
-  color: #9f9fba;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   outline: 1px solid #9f9fba;
