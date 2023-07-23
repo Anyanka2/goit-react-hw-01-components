@@ -10,7 +10,7 @@ import { FriendList } from './FriendList/FriendList';
 import transactions from '../data/transactions.json';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
-export function App() {
+export default function App() {
   return (
     <>
       <Profile
@@ -25,4 +25,4 @@ export function App() {
       {/*<TransactionHistory items={transactions} /> */}
     </>
   );
-}
+};
