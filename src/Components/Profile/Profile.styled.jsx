@@ -15,7 +15,6 @@ export const DescriptionCont = styled.div`
   padding-left: 22px;
   padding-top: 22px;
   margin: 0 auto;
-  background-color: white;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   outline: 1px solid #9f9fba;
@@ -72,7 +71,6 @@ export const ListItem = styled.li`
   background-color: #c4dce4;
   padding: 10px;
 
-  /* border-bottom-right-radius: 3px; */
   &:first-of-type {
     border-bottom-left-radius: 3px;
   }

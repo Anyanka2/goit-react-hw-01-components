@@ -1,11 +1,11 @@
 import styled from '@emotion/styled';
 
 export const TransactionHistoryTable = styled.table`
-  border: 2px solid black;
+  border: 2px solid grey;
   width: 360px;
   border-collapse: collapse;
   margin: 40px auto;
-
+  
   & th,
   & td {
     padding: 10px;
